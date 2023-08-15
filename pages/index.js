@@ -9,7 +9,7 @@ import {
   deleteDoc,
   doc,
 } from "firebase/firestore";
-import { db } from "./firebase";
+import { db } from "../firebase";
 export default function Home() {
   const [items, setItems] = useState([
     //  { name: "Coffee", price: 40 },
