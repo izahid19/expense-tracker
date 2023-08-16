@@ -63,7 +63,7 @@ export default function Home() {
       className={`flex min-h-screen flex-col items-center justify-between sm:p-24 p-4 bg-red-50`}
     >
       <div className="z-10 max-w-5xl items-center justify-between font-mono text-sm">
-        <h1 className="text-4xl p-4 text-center">Expense Tracker</h1>
+        <h1 className="text-4xl p-4 text-center text-blue-800">Expense Tracker</h1>
         <div className="bg-slate-800 p-4 rounded-lg">
           <form className="grid grid-cols-6 items-center text-black">
             <input
